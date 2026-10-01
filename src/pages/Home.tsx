@@ -103,7 +103,7 @@ export default function Home() {
     <div className="min-h-screen bg-[#F7EFE3] font-sans text-[#2B2420]">
       {/* Nav */}
       <header className="sticky top-0 z-10 border-b border-[#E4D5BC] bg-[#F7EFE3]/90 backdrop-blur">
-        <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+        <div className="mx-auto flex max-w-5xl items-center justify-center sm:justify-between px-6 py-4">
           <img src="/olajesu-logo.svg" alt="Olajesu '26" className="h-14" />
           <nav className="hidden gap-6 text-sm sm:flex">
             <a href="#rsvp" className="hover:text-[#6B1E2B]">RSVP</a>
