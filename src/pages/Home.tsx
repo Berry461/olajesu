@@ -104,7 +104,7 @@ export default function Home() {
       {/* Nav */}
       <header className="sticky top-0 z-10 border-b border-[#E4D5BC] bg-[#F7EFE3]/90 backdrop-blur">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-          <span className="font-serif text-lg text-[#6B1E2B]">OlaJesu '26</span>
+          <img src="/olajesu-logo.svg" alt="Olajesu '26" className="h-14" />
           <nav className="hidden gap-6 text-sm sm:flex">
             <a href="#rsvp" className="hover:text-[#6B1E2B]">RSVP</a>
             <a href="#schedule" className="hover:text-[#6B1E2B]">Schedule</a>
@@ -297,7 +297,7 @@ export default function Home() {
                     School), off Ogudu Road, Ojota, Lagos
                   </p>
                   <p className="text-sm text-[#5A4E40]">
-                    Family and friends. Traditional attire encouraged.
+                    Traditional attire encouraged.
                   </p>
                 </div>
                 <div className="border-l-2 border-[#C6A253] pl-5">
